@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
-
+/*
+ * Model pro databázi seznamu pojištění, které pojišťovna nabízí.
+*/
 namespace PojistovnaWebApp.Models
 {
     public class SeznamPojisteni

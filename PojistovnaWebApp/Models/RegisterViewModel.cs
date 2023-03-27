@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Xml.Linq;
-
+/*
+ * Model pro databázi registrovaných správců webu pojišťovny.
+*/
 namespace PojistovnaWebApp.Models
 {
         public class RegisterViewModel

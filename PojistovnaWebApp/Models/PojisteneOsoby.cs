@@ -1,9 +1,18 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+/*
+ * Model pro databázi osob v pojišťovně
+*/
+
 namespace PojistovnaWebApp.Models
 {
     public class PojisteneOsoby
     {
+        public PojisteneOsoby()
+        {
+            this.SjednanaPojisteni = new HashSet<SjednanaPojisteni>();
+        }
+
         [Key]
         public int IdOsoby { get; set; }
         [Required(ErrorMessage = "Vyplňte jméno")]
